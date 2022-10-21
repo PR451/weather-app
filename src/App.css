@@ -1,0 +1,48 @@
+* {
+  scroll-behavior: smooth;
+}
+
+@import url('http://fonts.cdnfonts.com/css/breathing-personal-use');
+
+.App {
+  text-align: center;
+  width: 100%;
+  background-image: url("./images/background_image.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.App .title {
+  color: white;
+  font-size: 4rem;
+  font-weight: 400;
+  margin-top: 15%;
+  font-style:bold;
+  font-family: 'Breathing Personal Use', sans-serif;
+}
+
+@media (max-width: 1200px) {
+  .App .title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .App .title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .App .title {
+    font-size: 2rem;
+  }
+}
