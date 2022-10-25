@@ -10,3 +10,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@font-face {
+  font-family: "Breathing Personal Use";
+  src: local("Breathing Personal Use"),
+   url("./fonts/breathingpersonaluse-mvogj.ttf") format("truetype");
+  font-weight: bold;
+}
